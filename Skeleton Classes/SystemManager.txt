@@ -1,0 +1,15 @@
+package emps.users;
+
+import emps.datacollection.sensor;
+
+public SystemManager extends User{
+    public List<String> SensorHistory;
+
+    public SystemManager(String email, String password, String name){}
+
+    public void createSensor(String name, String sensorType, String location){}
+
+    public void removeSensor(int sensorId){}
+
+    public void editSensor(int sensorId, EnvironmentalSensor updatedsensor){}
+}

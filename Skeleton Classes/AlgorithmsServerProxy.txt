@@ -1,0 +1,12 @@
+package emps.algorithms;
+
+public class AlgorithmsServerProxy{
+
+    public List<String> algorithmList;
+    public String serviceUrl;
+    public String status;
+
+    public AlgorithmsServerProxy(){}
+
+    public PredictiveModel generateModel(String algorithm, List<SensorReading> data){}
+}

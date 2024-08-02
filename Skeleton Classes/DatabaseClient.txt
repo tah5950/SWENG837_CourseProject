@@ -1,0 +1,17 @@
+package emps.database;
+
+public class DatabaseClient{
+    private String baseUrl;
+
+    public DatabaseClient(){}
+
+    public List<SensorReading> getReadingById(int id){}
+
+    public List<SensorReading> getReadingByDateRange(DateTime startDate, DateTime endDate){}
+
+    public List<SensorReading> getReadingByType(String sensorType){}
+
+    public boolean storeReadings(List<SensorReading> readings){}
+
+    public boolean removeReadings(List<SensorReading> readings){}
+}

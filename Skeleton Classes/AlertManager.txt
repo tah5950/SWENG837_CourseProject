@@ -1,0 +1,13 @@
+package emps.alerts;
+
+public class AlertManager{
+    public List<Alert> alerts;
+
+    public AlertManager(){}
+
+    public Alert createAlert(String conditional, float alertThreshold){}
+
+    public void checkAlerts(String conditional, float currentReading){}
+
+    public removeAlert(int alertid){}
+}

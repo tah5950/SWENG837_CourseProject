@@ -1,0 +1,14 @@
+package emps.alerts;
+
+public class Alert{
+    public String conditional;
+    public float alertThreshold;
+    public String status;
+    public int alertId;
+
+    public Alert(String conditional, float alertThreshold){}
+
+    public void checkThreshold(float currentReading){}
+
+    private void sendAlert(float currentReading){}
+}
