@@ -1,0 +1,9 @@
+package emps.datacollection.sensor;
+
+public interface SensorReading{
+    public DateTime timestamp;
+    public int sensorIdCreatedBy;
+    public String location;
+
+    public String getValueAsString();
+}

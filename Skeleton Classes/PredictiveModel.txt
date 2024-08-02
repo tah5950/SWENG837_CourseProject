@@ -1,0 +1,8 @@
+package emps.algorithms;
+
+public class PredictiveModel{
+    public String name;
+    public Image modelImage;
+
+    public PredictiveModel(){}
+}

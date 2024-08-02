@@ -1,0 +1,18 @@
+package emps.datacollection;
+
+public class DataCollectionService{
+
+    private Map<int, EnvironmentalSensor> sensors;
+    public String serviceUrl;
+    public String status;
+
+    public DataCollectionService(){}
+
+    public SensorReading getSensorReading(int sensorid){}
+
+    public void addSensor(String name, String sensorType, String location){}
+
+    public void removeSensor(int sensorId){}
+
+    public updateSensor(int sensorId, EnvironmentalSensor sensor){}
+}

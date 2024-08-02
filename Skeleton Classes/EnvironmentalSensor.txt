@@ -1,0 +1,16 @@
+package emps.datacollection.sensor;
+
+public interface EnvironmentalSensor(){
+
+    public String name;
+    public int sensorId;
+    public String sensorType;
+    public String location;
+    public String status;
+
+    public SensorReading getReading();
+
+    public String getStatus();
+
+    public void calibrate();
+}

@@ -1,0 +1,28 @@
+package emps;
+
+public class EMPS_UI{
+    public User activeUser;
+    private String theme;
+    private DataCollectionService dataCollection;
+    private DatabaseClient dbClient;
+    private AlgorithmsServerProxy algorithmsServer;
+    private AlertManager alertManager;
+
+    public EMPS_UI(){}
+
+    public void createAccount(String email, String password, String name){}
+
+    private boolean validateRegistration(String email, String password){}
+
+    public SensorReading getCurrentReading(int sensorId){}
+
+    public List<SensorReading> getStoredData(String lookupType, String parameters){}
+
+    private void displayReadings(List<SensorReading> readings){}
+
+    public PredictiveModel getPredictiveModel(String algorithm, List<SensorReading> data){}
+
+    private List<SensorReading> getDataForModel(String algorithm, String region){}
+
+    private void displayModel(PredictiveModel model){}
+}
