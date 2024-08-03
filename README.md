@@ -5,4 +5,4 @@ For Documented Design Specification, see EMPS Software Design Specification.pdf 
 
 Note, if Diagrams are difficult to read in the document, there are png versions as well as microsoft viso files for them in the "Images" directory.
 
-Video can be found here:
+Video can be found here: https://youtu.be/LoJV4GQ5UgM
